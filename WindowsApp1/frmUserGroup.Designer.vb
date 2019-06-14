@@ -35,6 +35,7 @@ Partial Class frmUserGroup
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.SuspendLayout()
@@ -43,6 +44,7 @@ Partial Class frmUserGroup
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(22, 29)
@@ -114,7 +116,7 @@ Partial Class frmUserGroup
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(423, 264)
+        Me.Button3.Location = New System.Drawing.Point(373, 235)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 4
@@ -123,12 +125,21 @@ Partial Class frmUserGroup
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(531, 264)
+        Me.Button4.Location = New System.Drawing.Point(373, 264)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "Button3"
         Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(206, 44)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Label3"
         '
         'frmUserGroup
         '
@@ -164,4 +175,5 @@ Partial Class frmUserGroup
     Friend WithEvents Label2 As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Label3 As Label
 End Class
