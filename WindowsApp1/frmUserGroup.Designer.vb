@@ -33,6 +33,7 @@ Partial Class frmUserGroup
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.SuspendLayout()
@@ -110,11 +111,21 @@ Partial Class frmUserGroup
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Label2"
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(487, 248)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 2
+        Me.Button4.Text = "Button3"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'frmUserGroup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.GroupBox1)
@@ -140,4 +151,5 @@ Partial Class frmUserGroup
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button4 As Button
 End Class
