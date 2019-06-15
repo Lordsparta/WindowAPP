@@ -1,0 +1,149 @@
+commit 66762c42f818c13bfa4cf93f8e5830f9ffbe0fc5
+Author: Tapasit Suesasiton <killerzeus@hotmail.com>
+Date:   Sat Jun 15 12:19:31 2019 +0700
+
+    Rename file
+
+diff --git a/ff.txt b/ff.txt
+index 760890a..a075067 100644
+--- a/ff.txt
++++ b/ff.txt
+@@ -1 +1,4 @@
+-deswadesfes
+\ No newline at end of file
++deswadesfes
++
++
++THIS IS TEST FILE
+\ No newline at end of file
+diff --git a/newNew.txt b/newNew.txt
+new file mode 100644
+index 0000000..a075067
+--- /dev/null
++++ b/newNew.txt
+@@ -0,0 +1,4 @@
++deswadesfes
++
++
++THIS IS TEST FILE
+\ No newline at end of file
+
+commit 820d7d78491a3fd876da464828c9eaa4a27784f4
+Author: Tapasit Suesasiton <killerzeus@hotmail.com>
+Date:   Sat Jun 15 10:54:37 2019 +0700
+
+    AA
+
+diff --git a/ff.txt b/ff.txt
+index e69de29..760890a 100644
+--- a/ff.txt
++++ b/ff.txt
+@@ -0,0 +1 @@
++deswadesfes
+\ No newline at end of file
+
+commit 0701bec133dfed9f328ea9dba2973d1829b89a0a
+Author: Tapasit Suesasiton <killerzeus@hotmail.com>
+Date:   Sat Jun 15 10:53:32 2019 +0700
+
+    AA
+
+diff --git a/ff.txt b/ff.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit 4555e5be894b3961e3de9187001df8ca31ca40c7
+Author: Tapasit Suesasiton <killerzeus@hotmail.com>
+Date:   Fri Jun 14 17:06:34 2019 +0700
+
+    1
+
+diff --git a/.vs/WindowsApp1/v15/.suo b/.vs/WindowsApp1/v15/.suo
+index a41cac0..579c77a 100644
+Binary files a/.vs/WindowsApp1/v15/.suo and b/.vs/WindowsApp1/v15/.suo differ
+diff --git a/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-shm b/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-shm
+index c7df0ab..716895d 100644
+Binary files a/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-shm and b/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-shm differ
+diff --git a/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-wal b/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-wal
+index 34900de..704a45b 100644
+Binary files a/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-wal and b/.vs/WindowsApp1/v15/Server/sqlite3/storage.ide-wal differ
+diff --git a/WindowsApp1/frmUserGroup.Designer.vb b/WindowsApp1/frmUserGroup.Designer.vb
+index 58c5cc1..a3abd68 100644
+--- a/WindowsApp1/frmUserGroup.Designer.vb
++++ b/WindowsApp1/frmUserGroup.Designer.vb
+@@ -24,6 +24,7 @@ Partial Class frmUserGroup
+     Private Sub InitializeComponent()
+         Me.components = New System.ComponentModel.Container()
+         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
++        Me.Label3 = New System.Windows.Forms.Label()
+         Me.Button1 = New System.Windows.Forms.Button()
+         Me.Label1 = New System.Windows.Forms.Label()
+         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+@@ -35,7 +36,6 @@ Partial Class frmUserGroup
+         Me.Label2 = New System.Windows.Forms.Label()
+         Me.Button3 = New System.Windows.Forms.Button()
+         Me.Button4 = New System.Windows.Forms.Button()
+-        Me.Label3 = New System.Windows.Forms.Label()
+         Me.GroupBox1.SuspendLayout()
+         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
+         Me.SplitContainer1.SuspendLayout()
+@@ -54,6 +54,15 @@ Partial Class frmUserGroup
+         Me.GroupBox1.TabStop = False
+         Me.GroupBox1.Text = "GroupBox1"
+         '
++        'Label3
++        '
++        Me.Label3.AutoSize = True
++        Me.Label3.Location = New System.Drawing.Point(206, 44)
++        Me.Label3.Name = "Label3"
++        Me.Label3.Size = New System.Drawing.Size(39, 13)
++        Me.Label3.TabIndex = 2
++        Me.Label3.Text = "Label3"
++        '
+         'Button1
+         '
+         Me.Button1.Location = New System.Drawing.Point(114, 39)
+@@ -132,15 +141,6 @@ Partial Class frmUserGroup
+         Me.Button4.Text = "Button3"
+         Me.Button4.UseVisualStyleBackColor = True
+         '
+-        'Label3
+-        '
+-        Me.Label3.AutoSize = True
+-        Me.Label3.Location = New System.Drawing.Point(206, 44)
+-        Me.Label3.Name = "Label3"
+-        Me.Label3.Size = New System.Drawing.Size(39, 13)
+-        Me.Label3.TabIndex = 2
+-        Me.Label3.Text = "Label3"
+-        '
+         'frmUserGroup
+         '
+         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+diff --git a/WindowsApp1/frmUserGroup.resx b/WindowsApp1/frmUserGroup.resx
+index 0c3aac2..6a6e356 100644
+--- a/WindowsApp1/frmUserGroup.resx
++++ b/WindowsApp1/frmUserGroup.resx
+@@ -127,6 +127,6 @@
+     <value>242, 17</value>
+   </metadata>
+   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+-    <value>85</value>
++    <value>25</value>
+   </metadata>
+ </root>
+\ No newline at end of file
+diff --git a/WindowsApp1/frmUserGroup.vb b/WindowsApp1/frmUserGroup.vb
+index 6cd3546..6420829 100644
+--- a/WindowsApp1/frmUserGroup.vb
++++ b/WindowsApp1/frmUserGroup.vb
+@@ -1,3 +1,9 @@
+ ﻿Public Class frmUserGroup
++    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+ 
++    End Sub
++
++    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
++
++    End Sub
+ End Class
+\ No newline at end of file
