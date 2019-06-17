@@ -90,6 +90,12 @@
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmUserAdmin.Designer.vb">
+      <DependentUpon>frmUserAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmUserGroup.Designer.vb">
       <DependentUpon>frmUserGroup.vb</DependentUpon>
     </Compile>
